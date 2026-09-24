@@ -1,0 +1,93 @@
+/* Aluno: Murilo de Lima Marques - Nº13 */
+body {
+  background-color: #E2E8F3;
+  font-size: .8em;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+img {
+  cursor: pointer;
+  width: 200px;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.parking-rules {
+  padding: 0;
+}
+.parking-rules  > .parking-rule {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: #FDFEFE;
+  padding: 16px;
+  margin: 12px;
+}
+.parking-rule:nth-child(n) {
+  border: 2px solid #538cff;
+}
+.parking-rule:nth-child(2n) {
+  border: 2px solid #d51c00;
+}
+.parking-rule:nth-child(3n) {
+  border: 2px solid #ffd92e;
+}
+.parking-rule ul {
+  padding: 0;
+}
+.parking-rule li:first-child {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.drop-zone {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  background: #878787;
+  color: white;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.drop-zone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drop-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message {
+  width: 300px;
+  min-height: 3em;
+  margin: 16px 0 0;
+  padding: 8px 12px;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 4px;
+}
+.message:empty {
+  visibility: hidden;
+}
+.message.success {
+  background: #d7f2e1;
+  color: #145c32;
+  border: 2px solid #1f904e;
+}
+.message.error {
+  background: #fbdcd6;
+  color: #8c1200;
+  border: 2px solid #d51c00;
+}

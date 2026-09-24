@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120" width="240" height="120">
+  <!-- carroceria -->
+  <path d="M14 82 V62 Q14 54 22 52 L48 48 L66 24 Q70 18 78 18 H160 Q170 18 176 26 L196 50 L216 56 Q226 58 226 68 V82 Q226 88 220 88 H20 Q14 88 14 82 Z" fill="#2f5d8a" stroke="#1b3a57" stroke-width="3" stroke-linejoin="round"/>
+  <!-- janelas -->
+  <path d="M60 48 L74 28 Q76 26 80 26 H104 V48 Z" fill="#cfe8f7" stroke="#1b3a57" stroke-width="2"/>
+  <path d="M112 26 H158 Q164 26 168 32 L182 48 H112 Z" fill="#cfe8f7" stroke="#1b3a57" stroke-width="2"/>
+  <!-- rack de teto -->
+  <rect x="80" y="12" width="80" height="5" rx="2" fill="#1b3a57"/>
+  <!-- faróis / lanterna -->
+  <rect x="212" y="60" width="12" height="9" rx="2" fill="#ffe27a" stroke="#1b3a57" stroke-width="1.5"/>
+  <rect x="14" y="60" width="7" height="12" rx="2" fill="#d51c00"/>
+  <!-- maçaneta -->
+  <rect x="108" y="56" width="14" height="4" rx="2" fill="#1b3a57"/>
+  <!-- rodas -->
+  <g>
+    <circle cx="60" cy="90" r="20" fill="#222" />
+    <circle cx="60" cy="90" r="10" fill="#bbb" stroke="#777" stroke-width="2"/>
+    <circle cx="176" cy="90" r="20" fill="#222" />
+    <circle cx="176" cy="90" r="10" fill="#bbb" stroke="#777" stroke-width="2"/>
+  </g>
+</svg>

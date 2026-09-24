@@ -1,0 +1,88 @@
+<!-- Aluno: Murilo de Lima Marques - Nº13 -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAADicUQAAAAAAMzMzADY2NgAPz8/AAkJzgAStv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERERERERERERERERERERERERERERERERERERERERERERREERERREEQBCJAAAAiQAYEJAAAAEJAUQBAAAAABAAREAAAMAAAABEREDMwMzMBERERAzAzMBEREREQAAABERERERERERERERERERERERERERERERERERERERERERERH//wAA//8AAP//AAD//wAAx+MAAAAAAAAAAAAAgAEAAMABAADwAwAA+AcAAPwPAAD//wAA//8AAP//AAD//wAA"
+      rel="icon"
+      type="image/x-icon"
+    />
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment-range/3.1.1/moment-range.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/stylesheet.css"
+      media="screen"
+    />
+    <body>
+        <div class="container">
+           <ul class="parking-rules">
+            <li class="parking-rule">
+              <ul>
+                <li> Estacionamento de ambulâncias</li>
+                <li> 24h (livre) </li>
+                <li> Todos os dias </li>
+              </ul>
+            </li>
+            <li class="parking-rule">
+              <ul>
+                <li> Estacionamento de SUVs</li>
+                <li> Proibido das 7h às 12h </li>
+                <li> Quintas-feiras (livre nos demais horários) </li>
+              </ul>
+             </li>
+             <li class="parking-rule">
+              <ul>
+                <li> Estacionamento de carros</li>
+                <li> 7h às 20h</li>
+                <li> Apenas segunda-feira </li>
+              </ul>
+             </li>
+             <li class="parking-rule">
+              <ul>
+                <li> Estacionamento de motos</li>
+                <li> 7h às 20h </li>
+                <li> Todos os dias </li>
+              </ul>
+             </li>
+          </ul>
+          <div class="drop-area">
+            <section class="drop-zone">
+            </section>
+            <!-- mensagem dinâmica exibida ao tentar estacionar -->
+            <p id="message" class="message" role="status" aria-live="polite"></p>
+          </div>
+          <section class="drag-vehicle">
+              <ul class="vehicles">
+                  <li>
+              <!-- objetos arrastáveis ​​devem ter o atributo arrastável -->
+                      <img id="suv" alt="suv" src="img/suv.svg">
+                  </li>
+                  <li>
+                      <img id="ambulance" alt="ambulance" src="img/ambulance.svg">
+                  </li>
+                  <li>
+                      <img id="car" alt="car" src="img/car.svg">
+                  </li>
+                  <li>
+                      <img id="motorcycle" alt="motorcycle" src="img/motorcycle.svg">
+                  </li>
+              </ul>
+          </section>
+        </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

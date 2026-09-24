@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 110" width="240" height="110">
+  <!-- carroceria (sedan, mais baixo que o SUV) -->
+  <path d="M12 76 V64 Q12 58 20 56 L58 50 L82 28 Q86 24 94 24 H148 Q156 24 162 30 L184 52 L214 58 Q226 60 226 68 V76 Q226 82 220 82 H18 Q12 82 12 76 Z" fill="#e0a800" stroke="#7a5c00" stroke-width="3" stroke-linejoin="round"/>
+  <!-- janelas -->
+  <path d="M68 50 L88 32 Q90 31 94 31 H112 V50 Z" fill="#cfe8f7" stroke="#7a5c00" stroke-width="2"/>
+  <path d="M120 31 H146 Q151 31 154 34 L172 50 H120 Z" fill="#cfe8f7" stroke="#7a5c00" stroke-width="2"/>
+  <!-- maçaneta, faróis -->
+  <rect x="122" y="58" width="14" height="4" rx="2" fill="#7a5c00"/>
+  <rect x="212" y="60" width="12" height="9" rx="2" fill="#fff6c2" stroke="#7a5c00" stroke-width="1.5"/>
+  <rect x="12" y="62" width="7" height="11" rx="2" fill="#d51c00"/>
+  <!-- rodas -->
+  <circle cx="64" cy="84" r="19" fill="#222"/>
+  <circle cx="64" cy="84" r="9" fill="#bbb" stroke="#777" stroke-width="2"/>
+  <circle cx="176" cy="84" r="19" fill="#222"/>
+  <circle cx="176" cy="84" r="9" fill="#bbb" stroke="#777" stroke-width="2"/>
+</svg>
